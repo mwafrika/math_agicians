@@ -11,7 +11,7 @@ class Calculator extends Component {
   render() {
     return (
       <main className='flex h-screen py-16'>
-        <section className='w-2/4 mx-auto bg-orange-400 grid grid-cols-4 grid-rows-6 divide-x divide-y divide-slate-400'>
+        <section className='w-2/4 mx-auto bg-slate-200 grid grid-cols-4 grid-rows-6 divide-x-2 divide-y-2 divide-slate-300'>
           <div className='col-span-full'>
             <input
               type='number'
@@ -28,7 +28,7 @@ class Calculator extends Component {
           <div className='flex justify-center items-center text-xl font-bold'>
             %
           </div>
-          <div className='flex justify-center items-center text-xl font-bold'>
+          <div className='flex justify-center items-center text-xl font-bold bg-orange-400'>
             ÷
           </div>
           <div className='flex justify-center items-center text-xl font-bold'>
@@ -40,7 +40,7 @@ class Calculator extends Component {
           <div className='flex justify-center items-center text-xl font-bold'>
             9
           </div>
-          <div className='flex justify-center items-center text-xl font-bold'>
+          <div className='flex justify-center items-center text-xl font-bold bg-orange-400'>
             X
           </div>
           <div className='flex justify-center items-center text-xl font-bold'>
@@ -52,7 +52,7 @@ class Calculator extends Component {
           <div className='flex justify-center items-center text-xl font-bold'>
             6
           </div>
-          <div className='flex justify-center items-center text-xl font-bold'>
+          <div className='flex justify-center items-center text-xl font-bold bg-orange-400'>
             -
           </div>
           <div className='flex justify-center items-center text-xl font-bold'>
@@ -64,7 +64,7 @@ class Calculator extends Component {
           <div className='flex justify-center items-center text-xl font-bold'>
             3
           </div>
-          <div className='flex justify-center items-center text-xl font-bold'>
+          <div className='flex justify-center items-center text-xl font-bold bg-orange-400'>
             +
           </div>
           <div className='col-span-2 flex justify-center items-center text-xl font-bold'>
@@ -73,7 +73,7 @@ class Calculator extends Component {
           <div className='flex justify-center items-center text-xl font-bold'>
             .
           </div>
-          <div className='flex justify-center items-center text-xl font-bold'>
+          <div className='flex justify-center items-center text-xl font-bold bg-orange-400'>
             =
           </div>
         </section>
