@@ -1,34 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# MATH MAGICIANS
 
-> Description the project.
-
+> Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Tailwind CSS
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+`Node must be installed in your local for your project to run`
+
 ### Setup
 
+`git clone https://github.com/mwafrika/math_magicians.git && cd cloned_repository`
+
 ### Install
+
+`npm install`
 
 ### Usage
 
@@ -36,21 +38,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mwafrika](https://github.com/mwafrika)
+- Twitter: [@mwafrika](https://twitter.com/mwafrikamufung1)
+- LinkedIn: [mwafrika](https://linkedin.com/in/mwafrika-mufungizi)
 
 ## 🤝 Contributing
 
