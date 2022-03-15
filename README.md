@@ -9,9 +9,9 @@
 - React
 - Tailwind CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mwafrika.github.io/math_magicians/)
 
 ## Getting Started
 
