@@ -14,7 +14,7 @@ class Calculator extends Component {
     return (
       <main className='flex h-screen py-16'>
         <section className='w-2/4 mx-auto bg-slate-200 grid grid-cols-4 grid-rows-6 divide-x-2 divide-y-2 divide-slate-300'>
-          <div className='col-span-full bg-slate-500  text-right text-5xl font-bold px-4 text-white border-none'>
+          <div className='col-span-full bg-slate-500 text-5xl font-bold px-4 text-white border-none flex items-center justify-end'>
             0
           </div>
           <div className='flex justify-center items-center text-xl font-bold'>
