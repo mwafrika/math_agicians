@@ -15,28 +15,31 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-`Node must be installed in your local for your project to run`
+```
+In order to run this project locally you should already have node and npm installed in your computer
+```
 
-### Setup
+### To get the local copy of this repository
 
-`git clone https://github.com/mwafrika/math_magicians.git && cd cloned_repository`
+```
+git clone https://github.com/mwafrika/math_magicians.git
 
-### Install
+cd math_magicians
+```
 
-`npm install`
+### Install dependancies
 
-### Usage
+```
+ npm install
+```
 
-### Run tests
+### To run the local copy of this repository
 
-### Deployment
+```
+npm start
+```
 
 ## Authors
 
