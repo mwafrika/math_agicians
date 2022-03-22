@@ -23,8 +23,16 @@ const Calculator = () => {
   return (
     <>
       <Header />
-      <main className='flex h-screen py-16'>
-        <section className='w-2/4 mx-auto bg-slate-200 grid grid-cols-4 grid-rows-6 divide-x-2 divide-y-2 divide-slate-300'>
+      <main className='flex h-screen py-12 justify-center gap-x-56 mx-10'>
+        <section>
+          <div className='flex flex-col justify-center text-center gap-8'>
+            <h1 className='text-4xl text-slate-700'>Math Magician</h1>
+            <h1 className='text-xl text-slate-600 '>
+              Let&apos;s us do some math!
+            </h1>
+          </div>
+        </section>
+        <section className='w-2/4 bg-slate-200 grid grid-cols-4 grid-rows-6 divide-x-2 divide-y-2 divide-slate-300'>
           <div className='col-span-full bg-slate-500 text-5xl font-bold px-4 text-white border-none flex items-center justify-end'>
             {total}
             {operation}
