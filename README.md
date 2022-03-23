@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Heroku](https://mwafrika.github.io/math_magicians/)
+[Live Demo Heroku](https://math-magician-mwafrika.herokuapp.com/)
 [Live Demo Netlify](https://mwafrika.github.io/math_magicians/)
 [Live Demo gh-pages](https://mwafrika.github.io/math_magicians/)
 
