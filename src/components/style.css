@@ -7,3 +7,62 @@ input[type='number']::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@media (min-width: 320px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .text-container {
+    gap: 1rem;
+  }
+
+  .calculator {
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .hide-menu {
+    display: none;
+  }
+
+  .separator {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 640px) {
+  .hide-menu {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  .calculator {
+    width: 50%;
+    display: grid;
+  }
+}
